@@ -1,5 +1,10 @@
 # Hugo configuration file
-title: My Site
+title: '@huntsyea'
+baseURL: "https://huntsyea.com/"
+
+enableRobotsTXT: true
+enableGitInfo: false
+enableEmoji: true
 
 # import hextra as module
 module:
@@ -15,7 +20,6 @@ markup:
   # enable hextra syntax highlight
   highlight:
     noClasses: false
-
 menu:
   main:
     - name: Docs
@@ -24,31 +28,41 @@ menu:
     - name: About
       pageRef: /about
       weight: 2
-    - name: Contact ↗
-      url: "https://github.com/imfing"
+    - name: Blog
+      pageRef: /blog
       weight: 3
+    - name: Essays
+      pageRef: /essays
+      weight: 4  
     - name: Search
-      weight: 4
+      weight: 5
       params:
         type: search
     - name: GitHub
-      weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
+      weight: 6
+      url: "https://github.com/huntsyea"
       params:
         icon: github
     - name: Twitter
-      weight: 6
-      url: "https://twitter.com/"
+      weight: 7
+      url: "https://twitter.com/huntsyea"
       params:
         icon: x-twitter
 
 params:
+  theme:
+    # light | dark | system
+    default: system
+  page:
+    # full (100%), wide (90rem), normal (1280px)
+    width: wide
+
   navbar:
     displayTitle: true
     displayLogo: false
 
   footer:
-    displayCopyright: false
+    displayCopyright: true
     displayPoweredBy: true
 
   editURL:

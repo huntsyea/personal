@@ -1,2 +1,4 @@
 github.com/imfing/hextra v0.7.3 h1:dVGA1NTcWe+FaUMdrawEypPfrrmulq5NoK0we3nC330=
 github.com/imfing/hextra v0.7.3/go.mod h1:cEfel3lU/bSx7lTE/+uuR4GJaphyOyiwNR3PTqFTXpI=
+github.com/imfing/hextra v0.7.4-0.20240421104621-81720c7727df h1:I4mg+Ss10WqM+/xxN5icHJuvX5fDdp7OotL0blzhotg=
+github.com/imfing/hextra v0.7.4-0.20240421104621-81720c7727df/go.mod h1:cEfel3lU/bSx7lTE/+uuR4GJaphyOyiwNR3PTqFTXpI=
